@@ -1,0 +1,16 @@
+.vscode
+tensorboard_logs
+__pycache__
+*.jar
+*_results.txt
+*.xlsx
+*.png
+models
+/model_performances/
+model_performances_c
+archive_files
+results_original/
+replicated_results/
+results/AlgorithmConfiguration/connect_four/connect_four_configuration_exp_c/model_performances_baseline_vs_ppo/nr_random_moves_0/
+results/AlgorithmConfiguration/connect_four/connect_four_configuration_exp_c/model_performances_baseline_vs_ppo/nr_random_moves_0/
+results/AlgorithmConfiguration/connect_four/connect_four_configuration_exp_c/model_performances_ppo_vs_random_c/nr_random_moves_0/

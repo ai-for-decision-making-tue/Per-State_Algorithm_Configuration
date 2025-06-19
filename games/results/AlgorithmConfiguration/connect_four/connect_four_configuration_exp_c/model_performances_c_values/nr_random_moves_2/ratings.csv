@@ -1,0 +1,11 @@
+,player,rating,nr_games,avg_points,c
+0,"MCTS[MCTS[name=models/connect_four_long_run_checkpoint_nr_0, uct_c=0.0078125, n_sims=100, selection_fn=puct_value]",1456.407560938268,2000,-0.10210526315789474,0.0078125
+1,"MCTS[MCTS[name=models/connect_four_long_run_checkpoint_nr_0, uct_c=0.015625, n_sims=100, selection_fn=puct_value]",1468.185414022733,2000,-0.05578947368421053,0.015625
+2,"MCTS[MCTS[name=models/connect_four_long_run_checkpoint_nr_0, uct_c=0.03125, n_sims=100, selection_fn=puct_value]",1475.6832830514322,2000,-0.04263157894736842,0.03125
+3,"MCTS[MCTS[name=models/connect_four_long_run_checkpoint_nr_0, uct_c=0.0625, n_sims=100, selection_fn=puct_value]",1477.2284372502,2000,-0.04894736842105263,0.0625
+4,"MCTS[MCTS[name=models/connect_four_long_run_checkpoint_nr_0, uct_c=0.125, n_sims=100, selection_fn=puct_value]",1550.8180526233537,2000,0.13421052631578947,0.125
+5,"MCTS[MCTS[name=models/connect_four_long_run_checkpoint_nr_0, uct_c=0.25, n_sims=100, selection_fn=puct_value]",1598.1081150936855,2000,0.2773684210526316,0.25
+6,"MCTS[MCTS[name=models/connect_four_long_run_checkpoint_nr_0, uct_c=0.5, n_sims=100, selection_fn=puct_value]",1578.2254608788367,2000,0.2,0.5
+7,"MCTS[MCTS[name=models/connect_four_long_run_checkpoint_nr_0, uct_c=1, n_sims=100, selection_fn=puct_value]",1532.3250670275509,2000,0.06578947368421052,1.0
+8,"MCTS[MCTS[name=models/connect_four_long_run_checkpoint_nr_0, uct_c=2, n_sims=100, selection_fn=puct_value]",1434.4041624568024,2000,-0.17421052631578948,2.0
+9,"MCTS[MCTS[name=models/connect_four_long_run_checkpoint_nr_0, uct_c=4, n_sims=100, selection_fn=puct_value]",1428.6709722374849,2000,-0.18473684210526317,4.0

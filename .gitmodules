@@ -1,0 +1,4 @@
+[submodule "warehousing/dynaplex"]
+	path = warehousing/dynaplex
+	url = https://github.com/DynaPlex/DynaPlex.git
+	branch = psac_cpaior
