@@ -1,6 +1,6 @@
 # Algorithm Configuration in Sequential Decision-Making
-This repository contains the code for the paper "Algorithm Configuration in Sequential Decision-Making", accepted at CPAIOR 2025.
-A pre-print version can be found at: https://zenodo.org/records/14936678.
+This repository contains the code for the paper "Algorithm Configuration in Sequential Decision-Making", accepted at CPAIOR 2025.\
+The full paper can be found at: [https://link.springer.com/chapter/10.1007/978-3-031-95973-8_6](https://link.springer.com/chapter/10.1007/978-3-031-95973-8_6).
 
 ## Cloning the Repository with Dependencies
 
@@ -79,11 +79,21 @@ To evaluate it, use the script of step 3, but change the file name of the traine
 If you use this code or the results in your research, please use the following BibTeX entry:
 
 ```
-@inproceedings{begnardi2025psac,
-  author       = "Begnardi, Luca and Meijenfeldt, Bart von and Zhang, Yingqian and Jaarsveld, Willem van and Baier, Hendrik",
-  title        = "Algorithm Configuration in Sequential Decision-Making",
-  booktitle    = "22nd International Conference, CPAIOR 2025, Melbourne, VIC, Australia, November 10–13, 2025, Proceedings, Part I",
-  year         = "2025",
-  month        = "7",
+@InProceedings{10.1007/978-3-031-95973-8_6,
+author="Begnardi, Luca
+and von Meijenfeldt, Bart
+and Zhang, Yingqian
+and van Jaarsveld, Willem
+and Baier, Hendrik",
+editor="Tack, Guido",
+title="Algorithm Configuration in Sequential Decision-Making",
+booktitle="Integration of Constraint Programming, Artificial Intelligence, and Operations Research",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="86--102",
+abstract="Proper parameter configuration of algorithms is essential, but often time-consuming and complex, as many parameters need to be tuned simultaneously and evaluation can be expensive. In this paper, we focus on sequential decision-making (SDM) algorithms, which are applied to problems that require a series of decisions to be taken sequentially, aiming for an optimal cumulative outcome for the agent. To do this, every time the agent needs to make a decision, SDM algorithms take the current state of the environment as input and provide a decision as output. We propose a taxonomy of algorithm configuration approaches for SDM and introduce the concept of Per-State Algorithm Configuration (PSAC). To perform PSAC automatically, we present a framework based on Reinforcement Learning (RL). We demonstrate how PSAC by RL works in practice by applying it to two SDM algorithms on two SDM problems: Monte Carlo Tree Search, to solve a collaborative order picking problem in warehouses, and AlphaZero, to play a classic board game called Connect Four. Our experiments show that, in both use cases, PSAC achieves significant performance improvements compared to fixed parameter configurations. In general, our work expands the field of automated algorithm configuration and opens new possibilities for further research on SDM algorithms and their applications. Code is available at: https://github.com/ai-for-decision-making-tue/Per-State{\_}Algorithm{\_}Configuration.",
+isbn="978-3-031-95973-8"
+}
 }
 ```
